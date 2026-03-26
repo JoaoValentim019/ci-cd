@@ -24,9 +24,6 @@ jobs:
       - name: Instalar browsers
         run: npx playwright install --with-deps
 
-      - name: Listar arquivos
-        run: ls -R
-
       - name: Rodar testes
         run: npm test
 
